@@ -44,7 +44,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 Original Acceleration Signal             |  Acceleration Signal Post-Filtering
 :-------------------------:|:-------------------------:
-![image](PNG/Accel_After.PNG "Acceleration Signal Before"){:height="50%" width="80%"}  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After"){:height="50%" width="80%"}
+![image](PNG/Accel_After.PNG "Acceleration Signal Before")  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After")
 
 ***
 
@@ -58,9 +58,16 @@ Demonstrate what you would do to describe the data and if it has any patterns or
 
 Build a model, fit the model, validate the model.
 
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
+
 ***
 
 ### Feature Importance
+
+![image](PNG/Feature_Importance.PNG "Feature Importance")
 
 What did you learn and do the results make sense?  Revisit your initial question and answer it.
 
