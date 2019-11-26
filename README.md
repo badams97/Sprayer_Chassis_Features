@@ -27,7 +27,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 8. Feature importance output
 9. Summary report
 
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
+![image](PNG/updated_project_workflow.PNG "Workflow Diagram"){:height="80%" width="80%"}
 
 ***
 
