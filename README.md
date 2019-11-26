@@ -17,15 +17,15 @@ In regards to the complete structure of a self-propelled sprayer, the chassis su
 
 Displayed below, this detailed project workflow accurately describes the overall process for this project.  The main steps in this procedure include the following:
 
-[x] Organized workspace
-[x] Introduction report
-[x] Specify features to analyze
-[x] Filter the appropriate data signals
-[x] Descriptive analysis
-[x] Data exploration and visualization
-[x] Machine learning application
-[x] Feature importance output
-[x] Summary report
+- [x] Organized workspace
+- [x] Introduction report
+- [x] Specify features to analyze
+- [x] Filter the appropriate data signals
+- [x] Descriptive analysis
+- [x] Data exploration and visualization
+- [x] Machine learning application
+- [x] Feature importance output
+- [x] Summary report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
