@@ -67,6 +67,8 @@ description: [A short description of your site's purpose]
 
 ![image](PNG/Feature_Importance.PNG "Feature Importance")
 
+![image](PNG/Tree_Visual.PNG "Decision Tree Visual")
+
 What did you learn and do the results make sense?  Revisit your initial question and answer it.
 
 ***
