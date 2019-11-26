@@ -31,10 +31,14 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ***
 
+### Selected Chassis Features
+
+![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
+
 ### Data Preparation
 
-..* MATLAB 
-..* Python
+..*MATLAB 
+..*Python
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
