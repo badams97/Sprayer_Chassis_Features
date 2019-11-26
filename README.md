@@ -9,7 +9,7 @@ With agricultural machines becoming more and more intelligent over the past deca
 
 In regards to the complete structure of a self-propelled sprayer, the chassis suspension system is a fundamental element driving the comprehensive performance of boom height control.  In an ideal environment, the sprayer boom would be entirely decoupled from the chassis, which would be isolated from any chassis inputs in return.  However, in reality, this is an impossible design requirement.  A completely decoupled architecture would result in systematic failure to maintain boom height leveling on uneven terrain and would greatly affect control system error anytime the machine is under motion.  Furthermore, current chassis and suspension designs possess a significant demand on operator ride quality.  The preferences towards ride comfort, safety, and inherent chassis roll stability frequently contributes towards non-optimized boom height control situations.
 
-**_Goal_**: this project intends to analyze the interactions of the chassis on overall boom height stability.  By determining the most important chassis performance features with how they classify boom motion, the highest ranked parameters can be prioritized for future product development work.  
+**_Goal_**: _this project intends to analyze the interactions of the chassis on overall boom height stability.  By determining the most important chassis performance features with how they classify boom motion, the highest ranked parameters can be prioritized for future product development work_.  
 
 ***
 
