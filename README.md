@@ -27,13 +27,13 @@ Displayed below, this detailed project workflow accurately describes the overall
 8. Feature importance output
 9. Summary report
 
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram"){:height="80%" width="90%"}
+![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
 ***
 
 ### Selected Chassis Features
 
-->![image](PNG/Sprayer_System_Diagram.PNG "System Diagram"){:height="80%" width="80%"}<-
+![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
 ***
 
@@ -42,11 +42,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 ..*MATLAB 
 ..*Python
 
-->![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")<-
-
-Original Acceleration Signal             |  Acceleration Signal Post-Filtering
-:-------------------------:|:-------------------------:
-![image](PNG/Accel_After.PNG "Acceleration Signal Before"){:height="90%" width="90%"}  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After"){:height="90%" width="90%"}
+![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
 ***
 
@@ -69,7 +65,7 @@ description: [A short description of your site's purpose]
 
 ### Feature Importance
 
-![image](PNG/Feature_Importance.PNG "Feature Importance"){:height="80%" width="80%"}
+![image](PNG/Feature_Importance.PNG "Feature Importance")
 
 What did you learn and do the results make sense?  Revisit your initial question and answer it.
 
