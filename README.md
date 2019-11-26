@@ -17,6 +17,10 @@ Goal: this project intends to analyze the interactions of the chassis on overall
 
 What is the scientitifc goal?  What would you do if you had all the data?  What do you want to predict or estimate?  Why is this relevant to ABE researchers or the field?  Provide some background on the rationale and relevance.
 
+### Project Workflow
+
+![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
+
 ### Data description
 
 What kind of data is avialble?  How is your data collected?  Are there any concerns about the data?  Which data is the most relevant?  Is the data easy to acccess? Will the data change over time?  What needs to be done to the data to get it ready for any downstream analysis?
@@ -109,10 +113,6 @@ The theme contains a minimal test suite, to ensure a site with the theme would b
 ## Making a Project Website
 
 ### Configuration variables
-
-### Project Workflow
-
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
 This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
 
