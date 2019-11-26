@@ -33,6 +33,10 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Selected Chassis Features
 
+<p align="center">
+  <src=PNG/Sprayer_System_Diagram.PNG>
+</p>
+
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram"){:height="80%" width="80%"}
 
 ### Data Preparation
