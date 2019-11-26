@@ -18,14 +18,14 @@ In regards to the complete structure of a self-propelled sprayer, the chassis su
 Displayed below, this detailed project workflow accurately describes the overall process for this project.  The main steps in this procedure include the following:
 
 - [x] Organized workspace
-2. Introduction report
-3. Specify features to analyze
-4. Filter the appropriate data signals
-5. Descriptive analysis
-6. Data exploration and visualization
-7. Machine learning application
-8. Feature importance output
-9. Summary report
+- [x] Introduction report
+- [x] Specify features to analyze
+- [x] Filter the appropriate data signals
+- [x] Descriptive analysis
+- [x] Data exploration and visualization
+- [x] Machine learning application
+- [x] Feature importance output
+- [x] Summary report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
@@ -42,7 +42,9 @@ Displayed below, this detailed project workflow accurately describes the overall
 ..*MATLAB 
 ..*Python
 
-<p align="center"> MATLAB
+<p align="center">
+  MATLAB
+
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
 ***
