@@ -3,7 +3,7 @@
 
 ### Introduction
 
-**_Purpose_**: _this website provides an overview of determining chassis suspension feature importance when classifying boom height performance of self-propelled sprayers_.
+**_Purpose_**: _this website provides an overview of evaluating chassis suspension feature importance when classifying boom height performance of self-propelled sprayers_.
 
 With agricultural machines becoming more and more intelligent over the past decade, a huge focus shift has been progressing on ensuring that these machines deliver their maximum potential.  Specifically for self-propelled sprayers, advancements in spraying technology has led to the need for further improved boom height control.  Not only does boom height control help provide targeted positioning above the plant of interest, it also allows for consistent spray patterns and more equal chemical coverage overall.  Without the proper establishment of effective boom height control strategies, problems such as spray drift and crop damage are intensified.
 
