@@ -1,46 +1,17 @@
-Purpose: This website is intended to provide an overview of which chassis suspension features are most important in terms of their influence on boom height stability of self-propelled sprayers.
-
-## Making a Project Website
-
-### Configuration variables
-
-### Project Workflow
-
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
-
-This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
-You can take a look at the `_config.yml` file in this repository to see how to type in the title and description.
-
-### Markdown
-
-You can see this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to work with Markdown language for adding features into this website.  This includes how to add headers, organization (e.g., bullets or lists), tables, and images.  It also includes how to add code to a website.
-
-*Note that for images, you will need to place the image file in a place that it can be referenced and called.  I would suggest the github repo might be a good solution.  Often, I make an images folder and can call the raw images file.
-
-See example [here](https://github.com/pages-themes/slate/blob/master/index.md).  You can see the raw code also.
-
-#### Relative Links
-To create links to other pages, you can read this article:  https://github.blog/2016-12-05-relative-links-for-github-pages/.  Note that these pages should by default direct to the same local folder/directory the index file is.  In this case, my README.md file is my index. If the files are in a different folder, one should specifiy the path for that folder.
-
-### Notebooks
 
 [Python Notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb)
 
-You can use a website to host notebooks.  First, you'll want to get the "raw" url from Github where your notebook is stored.  Then, navigate to https://nbviewer.jupyter.org and paste that URL.  The result will be a new generated URL that hosts your notebook.  This can be a [link](https://nbviewer.jupyter.org/github/isu-abe/516x/blob/master/module2/bootcamp/notebooks/nocode/Module%20IIB%20-%20Python%20Basics%20-%20no%20code.ipynb) in your website.
+### Introduction
 
-## Suggestions for Project Reporting
+Purpose: this website provides an overview of which chassis suspension features are most important in relation to their influence on boom height stability of self-propelled sprayers.
+
+With agricultural machines becoming more and more intelligent over the past decade, a huge focus shift has been progressing on ensuring that these machines deliver their maximum potential.  Specifically for self-propelled sprayers, advancements in spraying technology has led to the need for further improved boom height control.  Not only does boom height control help provide targeted positioning above the plant of interest, it also allows for consistent spray patterns and more equal chemical coverage overall.  Without the proper establishment of effective boom height control strategies, problems such as spray drift and crop damage are intensified.
+
+In regards to the complete structure of a self-propelled sprayer, the chassis suspension system is a fundamental element driving the comprehensive performance of boom height control.  In an ideal environment, the sprayer boom would be entirely decoupled from the chassis, which would be isolated from any chassis inputs in return.  However, in reality, this is an impossible design requirement.  A completely decoupled architecture would result in systematic failure to maintain boom height leveling on uneven terrain and would greatly affect control system error anytime the machine is under motion.  Furthermore, current chassis and suspension designs possess a significant demand on operator ride quality.  The preferences towards ride comfort, safety, and inherent chassis roll stability frequently contributes towards non-optimized boom height control situations.
+
+Goal: this project intends to analyze the interactions of the chassis on overall boom height stability.  By classifying the most important chassis performance features with how they relate to boom motion, the highest ranked parameters can be prioritized for future product development work.  
+
+***
 
 ### Interesting question 
 
@@ -132,3 +103,45 @@ If you'd like to preview the theme locally (for example, in the process of propo
 ### Running tests
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+
+## Documentation
+
+## Making a Project Website
+
+### Configuration variables
+
+### Project Workflow
+
+![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
+
+This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
+
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
+
+Additionally, you may choose to set the following optional variables:
+
+```yml
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
+You can take a look at the `_config.yml` file in this repository to see how to type in the title and description.
+
+### Markdown
+
+You can see this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to work with Markdown language for adding features into this website.  This includes how to add headers, organization (e.g., bullets or lists), tables, and images.  It also includes how to add code to a website.
+
+*Note that for images, you will need to place the image file in a place that it can be referenced and called.  I would suggest the github repo might be a good solution.  Often, I make an images folder and can call the raw images file.
+
+See example [here](https://github.com/pages-themes/slate/blob/master/index.md).  You can see the raw code also.
+
+#### Relative Links
+To create links to other pages, you can read this article:  https://github.blog/2016-12-05-relative-links-for-github-pages/.  Note that these pages should by default direct to the same local folder/directory the index file is.  In this case, my README.md file is my index. If the files are in a different folder, one should specifiy the path for that folder.
+
+### Notebooks
+
+[Python Notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb)
+
+You can use a website to host notebooks.  First, you'll want to get the "raw" url from Github where your notebook is stored.  Then, navigate to https://nbviewer.jupyter.org and paste that URL.  The result will be a new generated URL that hosts your notebook.  This can be a [link](https://nbviewer.jupyter.org/github/isu-abe/516x/blob/master/module2/bootcamp/notebooks/nocode/Module%20IIB%20-%20Python%20Basics%20-%20no%20code.ipynb) in your website.
