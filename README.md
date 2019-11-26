@@ -1,6 +1,4 @@
-```yml
 Purpose: This website is intended to provide an overview of which chassis suspension features are most important in terms of their influence on boom height stability of self-propelled sprayers.
-```
 
 ## Making a Project Website
 
@@ -8,7 +6,7 @@ Purpose: This website is intended to provide an overview of which chassis suspen
 
 ### Project Workflow
 
-![image](https://github.com/badams97/Sprayer_Chassis_Features/blob/master/PNG/project%20workflow.PNG "Workflow Diagram")
+![image](PNG/project workflow.PNG "Workflow Diagram")
 
 This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
 
