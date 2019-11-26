@@ -42,7 +42,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 ..*MATLAB 
 ..*Python
 
-![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
+-> ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline") <-
 
 Original Acceleration Signal             |  Acceleration Signal Post-Filtering
 :-------------------------:|:-------------------------:
