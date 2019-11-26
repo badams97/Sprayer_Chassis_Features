@@ -1,3 +1,7 @@
+```yml
+Purpose: This website is intended to provide an overview of which chassis suspension features are most important in terms of their influence on boom height stability of self-propelled sprayers.
+```
+
 ## Making a Project Website
 
 ### Configuration variables
