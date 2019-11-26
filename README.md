@@ -42,9 +42,6 @@ Displayed below, this detailed project workflow accurately describes the overall
 ..*MATLAB 
 ..*Python
 
-<p align="center">
-  MATLAB
-
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
 ***
