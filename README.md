@@ -40,7 +40,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 Original Acceleration Signal             |  Acceleration Signal Post-Filtering
 :-------------------------:|:-------------------------:
-![image](PNG/Accel_After.PNG "Acceleration Signal Before")  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After")
+![image](PNG/Accel_After.PNG "Acceleration Signal Before" =500x500)  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After" = 500x500)
 
 ***
 
