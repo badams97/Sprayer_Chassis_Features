@@ -13,19 +13,27 @@ In regards to the complete structure of a self-propelled sprayer, the chassis su
 
 ***
 
-### Interesting question 
-
-What is the scientitifc goal?  What would you do if you had all the data?  What do you want to predict or estimate?  Why is this relevant to ABE researchers or the field?  Provide some background on the rationale and relevance.
-
 ### Project Workflow
+
+Displayed below, this detailed project workflow accurately describes the overall process for this project.  The main steps in this procedure include the following:
+
+1. Organized workspace
+2. Introduction report
+3. Specify features to analyze
+4. Filter the appropriate data signals
+5. Descriptive analysis
+6. Data exploration and visualization
+7. Machine learning application
+8. Feature importance output
+9. Summary report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
-### Data description
+### Data Preparation
 
 What kind of data is avialble?  How is your data collected?  Are there any concerns about the data?  Which data is the most relevant?  Is the data easy to acccess? Will the data change over time?  What needs to be done to the data to get it ready for any downstream analysis?
 
-### Explore the data
+### Data Exploration
 
 Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
 
@@ -35,7 +43,7 @@ Build a model, fit the model, validate the model.
 
 ### Communciate and visualize the results
 
-What did you learn and do the results make sense?  Revisit your initial question and answer it.  H
+What did you learn and do the results make sense?  Revisit your initial question and answer it.
 
 ### Class Exercise
 
