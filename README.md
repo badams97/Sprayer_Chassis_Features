@@ -3,13 +3,13 @@
 
 ### Introduction
 
-Purpose: this website provides an overview of which chassis suspension features are most important in relation to their influence on boom height stability of self-propelled sprayers.
+**Purpose**: this website provides an overview of which chassis suspension features are most important in relation to their influence on boom height stability of self-propelled sprayers.
 
 With agricultural machines becoming more and more intelligent over the past decade, a huge focus shift has been progressing on ensuring that these machines deliver their maximum potential.  Specifically for self-propelled sprayers, advancements in spraying technology has led to the need for further improved boom height control.  Not only does boom height control help provide targeted positioning above the plant of interest, it also allows for consistent spray patterns and more equal chemical coverage overall.  Without the proper establishment of effective boom height control strategies, problems such as spray drift and crop damage are intensified.
 
 In regards to the complete structure of a self-propelled sprayer, the chassis suspension system is a fundamental element driving the comprehensive performance of boom height control.  In an ideal environment, the sprayer boom would be entirely decoupled from the chassis, which would be isolated from any chassis inputs in return.  However, in reality, this is an impossible design requirement.  A completely decoupled architecture would result in systematic failure to maintain boom height leveling on uneven terrain and would greatly affect control system error anytime the machine is under motion.  Furthermore, current chassis and suspension designs possess a significant demand on operator ride quality.  The preferences towards ride comfort, safety, and inherent chassis roll stability frequently contributes towards non-optimized boom height control situations.
 
-Goal: this project intends to analyze the interactions of the chassis on overall boom height stability.  By classifying the most important chassis performance features with how they relate to boom motion, the highest ranked parameters can be prioritized for future product development work.  
+**Goal**: this project intends to analyze the interactions of the chassis on overall boom height stability.  By classifying the most important chassis performance features with how they relate to boom motion, the highest ranked parameters can be prioritized for future product development work.  
 
 ***
 
