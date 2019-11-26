@@ -36,7 +36,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 ..* MATLAB 
 ..* Python
 
-![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
+![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline" = 250x250)
 
 Original Acceleration Signal             |  Acceleration Signal Post-Filtering
 :-------------------------:|:-------------------------:
