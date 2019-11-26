@@ -33,7 +33,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Selected Chassis Features
 
-![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
+![image](PNG/Sprayer_System_Diagram.PNG "System Diagram"){:height="80%" width="80%"}
 
 ### Data Preparation
 
@@ -44,7 +44,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 Original Acceleration Signal             |  Acceleration Signal Post-Filtering
 :-------------------------:|:-------------------------:
-![image](PNG/Accel_After.PNG "Acceleration Signal Before")  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After")
+![image](PNG/Accel_After.PNG "Acceleration Signal Before"){:height="80%" width="80%"}  |  ![image](PNG/Accel_Before.PNG "Acceleration Signal After"){:height="80%" width="80%"}
 
 ***
 
@@ -67,7 +67,7 @@ description: [A short description of your site's purpose]
 
 ### Feature Importance
 
-![image](PNG/Feature_Importance.PNG "Feature Importance")
+![image](PNG/Feature_Importance.PNG "Feature Importance"){:height="80%" width="80%"}
 
 What did you learn and do the results make sense?  Revisit your initial question and answer it.
 
