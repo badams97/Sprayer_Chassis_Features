@@ -27,9 +27,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 - [x] Feature importance output
 - [x] Summary report
 
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram"){
-   border: 1px solid black;
-}
+![image](PNG/updated_project_workflow.PNG "Workflow Diagram"){border: 1px solid black;}
 
 ***
 
