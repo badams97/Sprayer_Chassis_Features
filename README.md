@@ -28,10 +28,6 @@ Displayed below, this detailed project workflow accurately describes the overall
 - [x] Summary report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
-}
-img[src~="bordered"] {
-   border: 1px solid black;
-}
 
 ***
 
