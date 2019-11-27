@@ -48,6 +48,8 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Data Exploration
 
+![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
+
 Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
 
 ***
