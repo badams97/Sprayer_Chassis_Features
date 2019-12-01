@@ -92,6 +92,7 @@ max_error: the maximum residual error was calculated to be ~ 99
 Additional **documentation and information** on this random forest classifier algorithm can be found on these two websites: [random forest - sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) and [understanding random forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
 
 ***
+***
 
 ### Feature Importance
 
