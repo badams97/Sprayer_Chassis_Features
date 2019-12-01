@@ -63,7 +63,7 @@ Here's a link to the **Python notebook** which hosted the analysis for chassis f
 
 ### Data Exploration
 
-The initial data investigation revealed that a total of **42 field passes** were included in this investigation.  Additionally, it also disclosed that **chassis lateral acceleration and chassis roll** along with **chassis longitudinal acceleration and chassis pitch** are highly correlated with each other.
+The initial data investigation revealed that a total of **42 field passes** were included in this investigation.  Additionally, it also disclosed that **chassis lateral acceleration and chassis roll** along with **chassis longitudinal acceleration and chassis pitch** are highly correlated with each other, as indicated by the lighter colors.
 
 ![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
 
@@ -80,7 +80,7 @@ The random forest classifier was chosen for this analysis due to its ability to 
 The various properties of this specific random forest application are described below:
 
 ```yml
-train_size: [75% of the data was used for training the model]
+train_size: 75% of the data was used for training the model
 n_estimators: [1000 estimators were used which means that there are 1000 trees in the in the forest]
 random_state: [Set to 0 to ensure the same results every time]
 explained_variance_score: [~ 47% of this model accounts for the variation in the dataset]
@@ -93,13 +93,15 @@ Additional **documentation and information** on this random forest classifier al
 
 ### Feature Importance
 
-As depicted in the following image, the random forest algorithm generated a corresponding decision tree to base the classification on.  The root node for this tree contains the **chassis roll rate** parameter, and, therefore, this attribute is considered as the "most important feature."
+As depicted in the following image, the random forest algorithm generated a corresponding decision tree to base the classification on.  The root node for this tree contains the **chassis roll rate** parameter, and, therefore, this attribute is considered as the most important feature.
 
 ![image](PNG/Tree_Visual.PNG "Decision Tree Visual")
 
-Furthermore, a **feature importance plot** was created to understand the importance distribution among the various chassis features.  It is shown that accounts for approximately **49.6%** of the overall importance, whereas chassis pitch rate and chassis vertical acceleration only account for **12.4% and 11.0%**, respectively. 
+Furthermore, a **feature importance plot** was created to understand the importance distribution among the various chassis features.  It is shown that chassis roll rate accounts for approximately **49.6%** of the overall importance, whereas chassis pitch rate and chassis vertical acceleration only account for **12.4% and 11.0%**, respectively. 
 
 ![image](PNG/Feature_Importance.PNG "Feature Importance")
+
+
 
 ***
 
