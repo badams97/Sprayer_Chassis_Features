@@ -14,13 +14,13 @@ In regards to the complete structure of a self-propelled sprayer, the **chassis 
 
 Displayed below, this detailed project workflow accurately describes the **overall process** for this investigation.  The main steps in this procedure include the following:
 
-_1. Organized Folder Structure_
+1. Organized Folder Structure
 2. Selection of Features to Analyze
-_3.  Extract and Filter Necessary Data Signals_
+3.  Extract and Filter Necessary Data Signals
 4.  Descriptive Analysis
-_5.  Data Exploration and Visualization_
+5.  Data Exploration and Visualization
 6.  Machine Learning Application
-_7.  Feature Importance Quantification_
+7.  Feature Importance Quantification
 8.  Summary Report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
@@ -31,7 +31,7 @@ _7.  Feature Importance Quantification_
 
 #### Chassis Suspension System
 
-Attributes of chassis dynamics are distinguished according to the **principal axes** of the chassis suspension system of a self-propelled sprayer.  These features are outlined in the table below, and the **bolded attributes** represent which features were selected for this study.
+Attributes of chassis dynamics are distinguished according to the **principal axes** of the chassis suspension system of a self-propelled sprayer.  These features are outlined in the table below, and the **bolded attributes** represent the selected features for this study.
 
 | Axis | Rotation | Rotation Rate  |  Acceleration   |
 | ------------- |:-------------:| -----:| -----:|
@@ -57,11 +57,13 @@ A brief outline of the data analysis steps performed in MATLAB is provided below
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
-Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [Python](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
+Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [Notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
 ***
 
 ### Data Exploration
+
+The initial data investigation revealed that a total of **42 field passes** were included in this investigation.  Additionally, it also disclosed that **chassis lateral acceleration and chassis roll** along with **chassis longitudinal acceleration and chassis pitch** are highly correlated with each other.
 
 ![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
 
@@ -75,6 +77,8 @@ Build a model, fit the model, validate the model.
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
+
+Additional documentation and information on this random forest classifier can be found on this [website](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
 
 ***
 
