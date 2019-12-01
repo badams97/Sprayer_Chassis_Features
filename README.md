@@ -9,6 +9,7 @@ In regards to the complete structure of a self-propelled sprayer, the **chassis 
 **_Goal_**: _this project intends to analyze the interactions of the chassis on overall boom height stability.  By quantifying the most important **chassis performance features** when classifying **boom height performance**, the highest ranked chassis parameters can be prioritized for future product development work_.  
 
 ***
+***
 
 ### Workflow
 
@@ -25,6 +26,7 @@ Displayed below, this detailed project workflow accurately describes the **overa
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
+***
 ***
 
 ### Self-Propelled Sprayer Dynamics
@@ -46,6 +48,7 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 In terms of the boom system, a common **key performance indicator** (KPI) for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide **one single metric**.  Therefore, this standard deviation KPI will serve as the classifier in the machine learning algorithm. 
 
 ***
+***
 
 ### Data Analysis Overview
 
@@ -60,6 +63,7 @@ A brief outline of the data analysis steps performed in MATLAB is provided below
 Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
 ***
+***
 
 ### Data Exploration
 
@@ -67,6 +71,7 @@ The initial data investigation revealed that a total of **42 field passes** were
 
 ![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
 
+***
 ***
 
 ### Random Forest Model
@@ -104,8 +109,9 @@ Furthermore, a **feature importance plot** was created to understand the importa
 
 ![image](PNG/Feature_Importance.PNG "Feature Importance")
 
+In conclusion, with chassis roll rate maintaining a significant portion of the overall importance, this feature can now uphold the highest priority when evaluating future chassis systems.  By focusing on reducing the average chassis roll rate experienced throughout the field, the greatest impact should be seen in reducing the standard deviation of boom motion.  Therefore, this should produce a more stable boom and improved boom height performance.
 
-
+***
 ***
 
 ### Class Exercise
