@@ -33,6 +33,12 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Selected Chassis Features
 
+| Axis | Rotation | Rotation Rate  |  Acceleration   |
+| ------------- |:-------------:| -----:| -----:|
+| X | Roll  | Roll Rate | Longitudinal  |
+| Y | Pitch | Pitch Rate |  Lateral  |
+| Z | Yaw   | Yaw Rate |  Vertical  |
+
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
 ***
