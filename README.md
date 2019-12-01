@@ -27,9 +27,11 @@ Displayed below, this detailed project workflow accurately describes the **overa
 
 ***
 
-### Sprayer Chassis Dynamics
+### Self-Propelled Sprayer Dynamics
 
-Attributes of chassis dynamics are distinguished according to the **principal axes** of the chassis suspension system in a self-propelled sprayer.  These features are outlined in the table below, and the **bolded attributes** represent which features were selected for this study.
+## Chassis Suspension System
+
+Attributes of chassis dynamics are distinguished according to the **principal axes** of the chassis suspension system of a self-propelled sprayer.  These features are outlined in the table below, and the **bolded attributes** represent which features were selected for this study.
 
 | Axis | Rotation | Rotation Rate  |  Acceleration   |
 | ------------- |:-------------:| -----:| -----:|
@@ -39,19 +41,23 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
+## Boom System
+
+In terms of the boom system, a common **key performance indicator** for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide one single metric.
+
 ***
 
 ### Data Analysis Overview
 
-Overall, the complete data anlaysis for this investigation was performed in two individual platforms: **MATLAB and Python**.  In general, MATLAB was utilized more for **data organizing and processing**, where Python was applied for its **machine learning capabilities**.  
+Overall, the complete data anlaysis for this investigation was performed in two individual platforms: **MATLAB and Python**.  In general, MATLAB was utilized more for **data organizing and processing**, where Python was applied for its **machine learning capabilities** when classifying boom height performance.
 
-All of the initial data channels are based on timeseries data extracted from previous machine testing out in the field.  The **same machine configuration** was used to collect **CAN-based data** across a plethora of different field passes for natural variation.  In order to negate the influence of time, **descriptive analysis** (i.e. mean, standard deviation, etc.) was implemeted to provide a complete summary of each field pass.
+All of the initial data channels are based on timeseries data extracted from previous machine testing out in the field.  The **same machine configuration** was used to collect **CAN-based data** across a plethora of different field passes for natural variation.  In order to negate the influence of time, **descriptive analysis** (i.e. mean, standard deviation, etc.) of each data signal was implemeted to provide a complete summary of each field pass.
 
 A brief outline of the data analysis steps performed in MATLAB is provided below:  
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
-Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [Chassis Feature Importance](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
+Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [Python](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
 ***
 
