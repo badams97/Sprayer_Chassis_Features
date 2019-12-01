@@ -87,24 +87,22 @@ explained_variance_score: [~ 47% of this model accounts for the variation in the
 max_error: [the maximum residual error was calculated to be ~ 99]
 ```
 
-Additional documentation and information on this random forest classifier algorithm can be found on these two websites: [random forest - sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) and [understanding random forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
+Additional **documentation and information** on this random forest classifier algorithm can be found on these two websites: [random forest - sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) and [understanding random forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
 
 ***
 
 ### Feature Importance
 
-![image](PNG/Feature_Importance.PNG "Feature Importance")
+As depicted in the following image, the random forest algorithm generated a corresponding decision tree to base the classification on.  The root node for this tree contains the **chassis roll rate** parameter, and, therefore, this attribute is considered as the "most important feature."
 
 ![image](PNG/Tree_Visual.PNG "Decision Tree Visual")
 
-What did you learn and do the results make sense?  Revisit your initial question and answer it.
+Furthermore, a **feature importance plot** was created to understand the importance distribution among the various chassis features.  It is shown that accounts for approximately **49.6%** of the overall importance, whereas chassis pitch rate and chassis vertical acceleration only account for **12.4% and 11.0%**, respectively. 
+
+![image](PNG/Feature_Importance.PNG "Feature Importance")
 
 ***
 
 ### Class Exercise
 
-In each project, I'd like to see a homework assignment that the class can do/evaluate to learn more about your data.  This should be a reproducible notebook that allows them to learn one or more aspects of your data workflow.  It is also an opportunity to share your research with your colleagues.
-
-Here is an example of a fantastic project website:
-
-https://stephenslab.github.io/ipynb-website/
+...
