@@ -1,6 +1,3 @@
-
-[Python Notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb)
-
 ### Introduction
 
 **_Purpose_**: _this website provides an overview of evaluating chassis suspension feature importance when classifying boom height performance of self-propelled sprayers_.
@@ -32,7 +29,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Sprayer Chassis Dynamics
 
-Attributes of chassis dynamics are distinguished according to the principal axes of the chassis suspension system in a self-propelled sprayer.  These attributes are outlined below in the table, and the bolded ones represent which features were selected for this study.
+Attributes of chassis dynamics are distinguished according to the principal axes of the chassis suspension system in a self-propelled sprayer.  These features are outlined in the table below, and the bolded attributes represent which features were selected for this study.
 
 | Axis | Rotation | Rotation Rate  |  Acceleration   |
 | ------------- |:-------------:| -----:| -----:|
@@ -46,17 +43,17 @@ Attributes of chassis dynamics are distinguished according to the principal axes
 
 ### Data Preparation
 
-Overall, the complete data anlaysis for this investigation was performed in two individual platforms: MATLAB and Python.  In general, MATLAB was utilized more for data collection and processing, where Python was applied for its machine learning capabilities.
+Overall, the complete data anlaysis for this investigation was performed in two different platforms: MATLAB and Python.  In general, MATLAB was utilized more for data collection, processing, and organizing, where Python was applied for its machine learning capabilities.  A brief outline of the data analysis steps performed in MATLAB is provided below:  
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
+
+Here's a link to the Python notebook which hosted the analysis for feature correlation and the machine learning application: [Chassis Feature Importance](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb)
 
 ***
 
 ### Data Exploration
 
 ![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
-
-Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
 
 ***
 
