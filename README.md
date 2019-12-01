@@ -116,4 +116,4 @@ Furthermore, a **feature importance plot** was created to understand the importa
 
 ### Class Exercise
 
-...
+The class task can be found on the following github reposoitory: 
