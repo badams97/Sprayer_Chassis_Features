@@ -116,4 +116,4 @@ Furthermore, a **feature importance plot** was created to understand the importa
 
 ### Class Exercise
 
-The class task can be found on the following github reposoitory: 
+The class task can be found on the following github reposoitory: [Github Repo](https://github.com/badams97/Sprayer_Chassis_Features)
