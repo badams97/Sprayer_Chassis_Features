@@ -57,7 +57,7 @@ A brief outline of the data analysis steps performed in MATLAB is provided below
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
-Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [Notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
+Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
 ***
 
