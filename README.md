@@ -29,7 +29,7 @@ Displayed below, this detailed project workflow accurately describes the **overa
 
 ### Self-Propelled Sprayer Dynamics
 
-## Chassis Suspension System
+#### Chassis Suspension System
 
 Attributes of chassis dynamics are distinguished according to the **principal axes** of the chassis suspension system of a self-propelled sprayer.  These features are outlined in the table below, and the **bolded attributes** represent which features were selected for this study.
 
@@ -41,7 +41,7 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
-## Boom System
+#### Boom System
 
 In terms of the boom system, a common **key performance indicator** for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide one single metric.
 
