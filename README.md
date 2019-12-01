@@ -71,11 +71,13 @@ The initial data investigation revealed that a total of **42 field passes** were
 
 ### Random Forest Model
 
-In machine learning applications, a random forest is defined as a "meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting." 
+In machine learning applications, a random forest is defined as a "meta estimator that fits a number of classifying **decision trees** on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting." 
 
-In other terms, "random forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes the model’s prediction."
+In other terms, "random forest, like its name implies, consists of a large number of individual decision trees that operate as an **ensemble**. Each individual tree in the random forest spits out a class prediction and the class with the **most votes** becomes the model’s prediction."
 
-The random forest classifier was chosen for this analysis due to its ability to extract and quantify feature importance.
+The random forest classifier was chosen for this analysis due to its ability to extract **feature importance**.  By quantifying which chassis suspension features are the most important when classifying boom height performance, the product development process can prioritize chassis designs that focus on these highest ranked features.
+
+
 
 ```yml
 title: [The title of your site]
