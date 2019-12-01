@@ -9,7 +9,7 @@ With agricultural machines becoming more and more intelligent over the past deca
 
 In regards to the complete structure of a self-propelled sprayer, the chassis suspension system is a fundamental element driving the comprehensive performance of boom height control.  In an ideal environment, the sprayer boom would be entirely decoupled from the chassis, which would be isolated from any chassis inputs in return.  However, in reality, this is an impossible design requirement.  A completely decoupled architecture would result in systematic failure to maintain boom height leveling on uneven terrain and would greatly affect control system error anytime the machine is under motion.  Furthermore, current chassis and suspension designs possess a significant demand on operator ride quality.  The preferences towards ride comfort, safety, and inherent chassis roll stability frequently contributes towards non-optimized boom height control situations.
 
-**_Goal_**: _this project intends to analyze the interactions of the chassis on overall boom height stability.  By determining the most important chassis performance features when classifying boom height performance, the highest ranked parameters can be prioritized for future product development work_.  
+**_Goal_**: _this project intends to analyze the interactions of the chassis on overall boom height stability.  By quantifying the most important chassis performance features when classifying boom height performance, the highest ranked chassis parameters can be prioritized for future product development work_.  
 
 ***
 
@@ -17,27 +17,28 @@ In regards to the complete structure of a self-propelled sprayer, the chassis su
 
 Displayed below, this detailed project workflow accurately describes the overall process for this project.  The main steps in this procedure include the following:
 
-- [x] Organized workspace
-- [x] Introduction report
-- [x] Specify features to analyze
-- [x] Filter the appropriate data signals
-- [x] Descriptive analysis
-- [x] Data exploration and visualization
-- [x] Machine learning application
-- [x] Feature importance output
-- [x] Summary report
+- [x] Organized Folder Structure
+- [x] Selection of Features to Analyze
+- [x] Extract and Filter Necessary Data Signals
+- [x] Descriptive Analysis
+- [x] Data Exploration and Visualization
+- [x] Machine Learning Application
+- [x] Feature Importance Quantification
+- [x] Summary Report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
 
 ***
 
-### Selected Chassis Features
+### Sprayer Chassis Dynamics
+
+Attributes of chassis dynamics are distinguished according to the principal axes of the chassis suspension system in a self-propelled sprayer.  These attributes are outlined below in the table, and the bolded ones represent which features were selected for this study.
 
 | Axis | Rotation | Rotation Rate  |  Acceleration   |
 | ------------- |:-------------:| -----:| -----:|
-| X | Roll  | Roll Rate | Longitudinal  |
-| Y | Pitch | Pitch Rate |  Lateral  |
-| Z | Yaw   | Yaw Rate |  Vertical  |
+| X | **Roll**  | **Roll Rate** | **Longitudinal**  |
+| Y | **Pitch** | **Pitch Rate** |  **Lateral**  |
+| Z | Yaw   | Yaw Rate |  **Vertical**  |
 
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
@@ -45,8 +46,7 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 ### Data Preparation
 
-..*MATLAB 
-..*Python
+Overall, the complete data anlaysis for this investigation was performed in two individual platforms: MATLAB and Python.  In general, MATLAB was utilized more for data collection and processing, where Python was applied for its machine learning capabilities.
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
