@@ -71,14 +71,18 @@ The initial data investigation revealed that a total of **42 field passes** were
 
 ### Random Forest Model
 
-Build a model, fit the model, validate the model.
+In machine learning applications, a random forest is defined as a "meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting." 
+
+In other terms, "random forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes the model’s prediction."
+
+The random forest classifier was chosen for this analysis due to its ability to extract and quantify feature importance.
 
 ```yml
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
 
-Additional documentation and information on this random forest classifier can be found on this [website](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
+Additional documentation and information on this random forest classifier algorithm can be found on these two websites: [Random Forest - sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) and [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
 
 ***
 
