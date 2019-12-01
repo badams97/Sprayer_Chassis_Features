@@ -84,7 +84,8 @@ train_size: 75% of the data was used for training the model
 n_estimators: 1000 estimators were used which means that there are
     1000 trees in the in the forest
 random_state: Set to 0 to ensure the same results every time
-explained_variance_score: ~ 47% of this model accounts for the variation in the dataset
+explained_variance_score: ~ 47% of this model accounts for the variation
+    in the dataset
 max_error: the maximum residual error was calculated to be ~ 99
 ```
 
