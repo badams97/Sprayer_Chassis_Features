@@ -31,11 +31,15 @@ Displayed below, this detailed project workflow accurately describes the overall
 
 Attributes of chassis dynamics are distinguished according to the principal axes of the chassis suspension system in a self-propelled sprayer.  These features are outlined in the table below, and the bolded attributes represent which features were selected for this study.
 
+<center>
+
 | Axis | Rotation | Rotation Rate  |  Acceleration   |
 | ------------- |:-------------:| -----:| -----:|
 | X | **Roll**  | **Roll Rate** | **Longitudinal**  |
 | Y | **Pitch** | **Pitch Rate** |  **Lateral**  |
 | Z | Yaw   | Yaw Rate |  **Vertical**  |
+
+</center>
 
 ![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
 
