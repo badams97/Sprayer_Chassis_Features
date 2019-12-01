@@ -77,11 +77,14 @@ In other terms, "random forest, like its name implies, consists of a large numbe
 
 The random forest classifier was chosen for this analysis due to its ability to extract **feature importance**.  By quantifying which chassis suspension features are the most important when classifying boom height performance, the product development process can prioritize chassis designs that focus on these highest ranked features.
 
-
+The various properties of this specific random forest application are described below:
 
 ```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+train_size: [75% of the data was used for training the model]
+n_estimators: [1000 estimators were used which means that there are 1000 trees in the in the forest]
+random_state: [Set to 0 to ensure the same results every time]
+explained_variance_score: [~ 47% of this model accounts for the variation in the dataset]
+max_error: [the maximum residual error was calculated to be ~ 99]
 ```
 
 Additional documentation and information on this random forest classifier algorithm can be found on these two websites: [Random Forest - sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) and [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2).
