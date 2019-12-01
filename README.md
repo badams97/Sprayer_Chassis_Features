@@ -10,9 +10,9 @@ In regards to the complete structure of a self-propelled sprayer, the chassis su
 
 ***
 
-### Project Workflow
+### Workflow
 
-Displayed below, this detailed project workflow accurately describes the overall process for this project.  The main steps in this procedure include the following:
+Displayed below, this detailed project workflow accurately describes the overall process for this investigation.  The main steps in this procedure include the following:
 
 - [x] Organized Folder Structure
 - [x] Selection of Features to Analyze
@@ -41,13 +41,17 @@ Attributes of chassis dynamics are distinguished according to the principal axes
 
 ***
 
-### Data Preparation
+### Data Analysis Overview
 
-Overall, the complete data anlaysis for this investigation was performed in two different platforms: MATLAB and Python.  In general, MATLAB was utilized more for data collection, processing, and organizing, where Python was applied for its machine learning capabilities.  A brief outline of the data analysis steps performed in MATLAB is provided below:  
+Overall, the complete data anlaysis for this investigation was performed in two individual platforms: MATLAB and Python.  In general, MATLAB was utilized more for data organizing and processing, where Python was applied for its machine learning capabilities.  
+
+All of the initial data channels are based on timeseries data extracted from previous machine testing out in the field.  The same machine configuration was used to collect CAN-based data across a plethora of different field passes for natural variation.  In order to negate the influence of time, descriptive analysis (i.e. mean, standard deviation, etc.) was implemeted to provide a complete summary of each field pass.
+
+A brief outline of the data analysis steps performed in MATLAB is provided below:  
 
 ![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
 
-Here's a link to the Python notebook which hosted the analysis for feature correlation and the machine learning application: [Chassis Feature Importance](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb)
+Here's a link to the Python notebook which hosted the analysis for chassis feature correlation and the machine learning application: [Chassis Feature Importance](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
 ***
 
