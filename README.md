@@ -14,13 +14,13 @@ In regards to the complete structure of a self-propelled sprayer, the **chassis 
 
 Displayed below, this detailed project workflow accurately describes the **overall process** for this investigation.  The main steps in this procedure include the following:
 
-1. Organized Folder Structure
+_1. Organized Folder Structure_
 2. Selection of Features to Analyze
-3.  Extract and Filter Necessary Data Signals
+_3.  Extract and Filter Necessary Data Signals_
 4.  Descriptive Analysis
-5.  Data Exploration and Visualization
+_5.  Data Exploration and Visualization_
 6.  Machine Learning Application
-7.  Feature Importance Quantification
+_7.  Feature Importance Quantification_
 8.  Summary Report
 
 ![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
@@ -43,7 +43,7 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 
 #### Boom System
 
-In terms of the boom system, a common **key performance indicator** for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide one single metric.
+In terms of the boom system, a common **key performance indicator** (KPI) for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide **one single metric**.  Therefore, this standard deviation KPI will serve as the classifier in the machine learning algorithm. 
 
 ***
 
