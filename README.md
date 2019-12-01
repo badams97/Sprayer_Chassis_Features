@@ -109,7 +109,7 @@ Furthermore, a **feature importance plot** was created to understand the importa
 
 ![image](PNG/Feature_Importance.PNG "Feature Importance")
 
-In conclusion, with chassis roll rate maintaining a significant portion of the overall importance, this feature can now uphold the highest priority when evaluating future chassis systems.  By focusing on reducing the average chassis roll rate experienced throughout the field, the greatest impact should be seen in reducing the standard deviation of boom motion.  Therefore, this should produce a more stable boom and improved boom height performance.
+**_Conclusion_**: with chassis roll rate maintaining a significant portion of the overall importance, this feature can now uphold the highest priority when evaluating future chassis systems.  By focusing on **reducing the average chassis roll rate** experienced throughout the field, the **greatest impact** should be seen in reducing the standard deviation of boom motion.  Therefore, this should produce a more stable boom and improved boom height performance.
 
 ***
 ***
