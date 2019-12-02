@@ -8,6 +8,8 @@ In regards to the complete structure of a self-propelled sprayer, the **chassis 
 
 **_Goal_**: _this project intends to analyze the interactions of the chassis on overall boom height stability.  By quantifying the most important **chassis performance features** when classifying **boom height performance**, the highest ranked chassis parameters can be prioritized for future product development work_.  
 
+![image](PNG/sprayer_field.PNG "Sprayer Field Visual")
+
 ***
 ***
 
