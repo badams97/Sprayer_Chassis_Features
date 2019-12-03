@@ -82,7 +82,7 @@ In machine learning applications, a random forest is defined as a "meta estimato
 
 In other terms, "random forest, like its name implies, consists of a large number of individual decision trees that operate as an **ensemble**. Each individual tree in the random forest spits out a class prediction and the class with the **most votes** becomes the model’s prediction."
 
-The random forest classifier was chosen for this analysis due to its ability to extract **feature importance**.  By quantifying which chassis suspension features are the most important when classifying boom height performance, the product development process can prioritize chassis designs that focus on these highest ranked features.
+The random forest classifier was chosen for this analysis due to its ability to extract **feature importance**.  By quantifying the most important chassis suspension features when classifying boom height performance, the product development process can prioritize chassis designs that focus on these highest ranked features.
 
 The various properties of this specific random forest application are described below:
 
