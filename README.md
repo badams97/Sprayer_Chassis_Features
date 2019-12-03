@@ -26,7 +26,7 @@ Displayed below, this detailed project workflow accurately describes the **overa
 7.  Feature Importance Quantification
 8.  Summary Report
 
-![image](PNG/updated_project_workflow.PNG "Workflow Diagram")
+![image](PNG_New/Project_Workflow_New.PNG "Workflow Diagram")
 
 ***
 ***
@@ -43,7 +43,7 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 | Y | **Pitch** | **Pitch Rate** |  **Lateral**  |
 | Z | Yaw   | Yaw Rate |  **Vertical**  |
 
-![image](PNG/Sprayer_System_Diagram.PNG "System Diagram")
+![image](PNG_New/Sprayer_System_Diagram_New.PNG "System Diagram")
 
 #### Boom System
 
@@ -60,7 +60,7 @@ All of the initial data channels are based on timeseries data extracted from pre
 
 A brief outline of the data analysis steps performed in MATLAB is provided below:  
 
-![image](PNG/Matlab_Code_Outline.PNG "MATLAB Code Outline")
+![image](PNG_New/Matlab_Code_Outline_New.PNG "MATLAB Code Outline")
 
 Here's a link to the **Python notebook** which hosted the analysis for chassis feature correlation and the machine learning application: [notebook](https://nbviewer.jupyter.org/github/badams97/Sprayer_Chassis_Features/blob/master/ABE%20516%20Project%20-%20Bailey%20Adams.ipynb).
 
@@ -71,7 +71,7 @@ Here's a link to the **Python notebook** which hosted the analysis for chassis f
 
 The initial data investigation revealed that a total of **42 field passes** were included in this investigation.  Additionally, it also disclosed that **chassis lateral acceleration and chassis roll** along with **chassis longitudinal acceleration and chassis pitch** are highly correlated with each other, as indicated by the lighter colors.
 
-![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
+![image](PNG_New/Correlation_Plot_New.PNG "Feature Correlation Plot")
 
 ***
 ***
@@ -105,11 +105,11 @@ Additional **documentation and information** on this random forest classifier al
 
 As depicted in the following image, the random forest algorithm generated a corresponding decision tree to base the classification on.  The root node for this tree contains the **chassis roll rate** parameter, and, therefore, this attribute is considered as the most important feature.
 
-![image](PNG/Tree_Visual.PNG "Decision Tree Visual")
+![image](PNG_New/Tree_Visual_New.PNG "Decision Tree Visual")
 
 Furthermore, a **feature importance plot** was created to understand the importance distribution among the various chassis features.  It is shown that chassis roll rate accounts for approximately **49.6%** of the overall importance, whereas chassis pitch rate and chassis vertical acceleration only account for **12.4% and 11.0%**, respectively. 
 
-![image](PNG/Feature_Importance.PNG "Feature Importance")
+![image](PNG_New/Feature_Importance_New.PNG "Feature Importance")
 
 **_Conclusion_**: with chassis roll rate maintaining a significant portion of the overall importance, this feature can now uphold the highest priority when evaluating future chassis systems.  By focusing on **reducing the average chassis roll rate** experienced throughout the field, the **greatest impact** should be seen in reducing the standard deviation of boom motion.  Therefore, this should produce a more stable boom and improved boom height performance.
 
