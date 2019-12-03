@@ -15,7 +15,7 @@ In regards to the complete structure of a self-propelled sprayer, the **chassis 
 
 ### Workflow
 
-Displayed below, this detailed project workflow accurately describes the **overall process** for this investigation.  The main steps in this procedure include the following:
+Displayed below, this detailed workflow accurately describes the **overall process** for this investigation.  The main steps in this procedure include the following:
 
 1. Organized Folder Structure
 2. Selection of Features to Analyze
