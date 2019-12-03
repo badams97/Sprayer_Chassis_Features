@@ -47,7 +47,7 @@ Attributes of chassis dynamics are distinguished according to the **principal ax
 
 #### Boom System
 
-In terms of the boom system, a common **key performance indicator** (KPI) for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide **one single metric**.  Therefore, this standard deviation KPI will serve as the classifier in the machine learning algorithm. 
+In terms of the boom system, a common **key performance indicator** (KPI) for measuring boom height performance is the **standard deviation of boom elevation**, which is measured in reference to the ground.  Because there is generally a left and right boom on a self-propelled sprayer, these standard deviations are averaged to provide **one single metric**.  Therefore, this standard deviation KPI will serve as the predictor in the machine learning algorithm. 
 
 ***
 ***
