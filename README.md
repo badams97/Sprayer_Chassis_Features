@@ -56,7 +56,7 @@ In terms of the boom system, a common **key performance indicator** (KPI) for me
 
 Overall, the complete data anlaysis for this investigation was performed in two individual platforms: **MATLAB and Python**.  In general, MATLAB was utilized more for **data organizing and processing**, where Python was applied for its **machine learning capabilities** when classifying boom height performance.
 
-All of the initial data channels are based on timeseries data extracted from previous machine testing out in the field.  The **same machine configuration** was used to collect **CAN-based data** across a plethora of different field passes for natural variation.  In order to negate the influence of time, **descriptive analysis** (i.e. mean, standard deviation, etc.) of each data signal was implemeted to provide a complete summary of each field pass.
+All of the initial data channels are based on timeseries data extracted from previous machine testing out in the field.  The **same machine configuration** was used to collect **CAN-based data** across a plethora of different field passes in order to inflict natural variation on the system.  In order to negate the influence of time, **descriptive analysis** (i.e. mean, standard deviation, etc.) of each data signal was implemeted to provide a complete summary of each field pass.
 
 A brief outline of the data analysis steps performed in MATLAB is provided below:  
 
