@@ -71,7 +71,7 @@ Here's a link to the **Python notebook** which hosted the analysis for chassis f
 
 The initial data investigation revealed that a total of **42 field passes** were included in this investigation.  Additionally, it also disclosed that **chassis lateral acceleration and chassis roll** along with **chassis longitudinal acceleration and chassis pitch** are highly correlated with each other, as indicated by the lighter colors.
 
-![image](PNG/Correlation_Plot.PNG "Feature Correlation Plot")
+![image](PNG_New/Correlation_Plot_New.PNG "Feature Correlation Plot")
 
 ***
 ***
